@@ -6,7 +6,7 @@ you can find in any of our project repositories, and their functions.
 
 ## Master branch
 
-```txt
+```
 May branch off from: initial commit
 May pull from:       release candidates, development, fixes
 May merge into:      none
@@ -23,7 +23,7 @@ The first commit of a project is always made to this branch with the initial ver
 
 ## Development branch
 
-```txt
+```
 May branch off from: initial commit
 May pull from:       features, fixes
 May merge into:      master, release candidates, demo
@@ -40,7 +40,7 @@ can be merged to the master. Nightly builds are created from this branch.
 
 ## Release candidate branches
 
-```txt
+```
 May branch off from: development
 May pull from:       fixes
 Must merge into:     master, development
@@ -63,7 +63,7 @@ Release-candidate builds are created from these branches.
 
 ## Feature branches
 
-```txt
+```
 May branch off from: development
 May pull from:       development
 May merge into:      development, demo
@@ -83,7 +83,7 @@ even if no changes were made to the development branch while the feature was in 
 
 ## Fix branches
 
-```txt
+```
 May branch off from: master
 May pull from:       master, development
 Must merge into:     master, development
@@ -103,7 +103,7 @@ small commit.
 
 ## Demo branches
 
-```txt
+```
 May branch off from: development, release candidates, demos
 May pull from:       all
 May merge into:      none
